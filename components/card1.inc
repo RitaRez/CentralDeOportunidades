@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/css/card.css">
+<link rel="stylesheet" href="../css/card.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 <div class="card">

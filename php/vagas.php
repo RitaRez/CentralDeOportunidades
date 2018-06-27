@@ -10,7 +10,7 @@
     </head>
     <body>
         <!-- NavBar -->
-        <?php include "nav.inc" ?>
+        <?php include "../components/nav.inc" ?>
 
         <!-- Search bar -->
         <nav id="searchBar" class="py-3 container-fluid">
@@ -28,47 +28,46 @@
 
 
         <!-- Cards Gallery -->
-        <div class="mx-3 mb-5 mt-3 cards">
+        <div id="gallery" class="mx-3 mt-3 cards">
             <div class="container-fluid">
                 <div class="row pt-4">
                     <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card1.inc" ?>
+                        <?php include "../components/card1.inc" ?>
                     </div>
                     <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card2.inc" ?>
+                        <?php include "../components/card2.inc" ?>
                     </div>
                     <div class="mt-4  col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card1.inc" ?>
+                        <?php include "../components/card1.inc" ?>
                     </div>
                     <div class="mt-4  col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card2.inc" ?>
+                        <?php include "../components/card2.inc" ?>
                     </div>
                     <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card1.inc" ?>
+                        <?php include "../components/card1.inc" ?>
                     </div>
                     <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card2.inc" ?>
+                        <?php include "../components/card2.inc" ?>
                     </div>
                     <div class="mt-4  col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card1.inc" ?>
+                        <?php include "../components/card1.inc" ?>
                     </div>
                     <div class="mt-4  col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card2.inc" ?>
+                        <?php include "../components/card2.inc" ?>
                     </div>
                     <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card1.inc" ?>
+                        <?php include "../components/card1.inc" ?>
                     </div>
                     <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card2.inc" ?>
+                        <?php include "../components/card2.inc" ?>
                     </div>
                     <div class="mt-4  col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "card1.inc" ?>
+                        <?php include "../components/card1.inc" ?>
                     </div>
                 </div>
             </div>
 
         </div>
-
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

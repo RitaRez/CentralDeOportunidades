@@ -12,31 +12,69 @@ a{
 #navBar a:hover{
     color: #f1f1f1;
 }
+#userData{
+    background-color: rgb(237, 237, 237);
+    padding: 2%;
+    height: 10%:
+}
 #userImg{
-    border-radius: 15px !important;
 }
 #userName{
-    padding-top: 2%;
-    font-size: 1em;
+    font-size: 1.6em;
     color: white;
+    font-family: 'Oswald', sans-serif;
 }
-#creator{
-    font-size: 1.2em;
-    color: white;
-    position: absolute;
-    bottom: 0;
+#userCourse{
+    font-size: 1.1em;
+    color: rgb(142, 149, 153);
+    font-family: 'Lato', sans-serif;
+
 }
 #logoff{
     font-size: 1.7em;
+    bottom 0;
+    position: absolute;
+    margin-top: 10vh !important;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#creator{
+    position:absolute;
+    bottom:0;
+    right: 0;
+    left: 0;
+    width:100%;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    text-decoration-style: wavy;
+    font-family: 'Pacifico', cursive;
+
+}
+.borda{
+    border-width: thick;
+    border-color: black;
+    border-radius: 50%;
+}
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .element{
-    padding-top: 5%;
+    padding-top: 12%;
     background-color: inherit;
-    color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
 }
 .element:hover{
-    background-color: #3ad260 !important;
-    color: black;
+    background-color: #50f1a6 !important;
+    color: white;
 }
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -58,7 +96,26 @@ a{
     margin-left: 50px;
     color:white;
 }
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 700px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    .element{
+        padding-top: 4%;
+    }
+    #logoff{
+        margin-top: 2%; !important;
+    }
+    #userName{
+        display: none;
+    }
+    #userCourse{
+        display: none;
+
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+
 }
