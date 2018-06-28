@@ -24,9 +24,7 @@
             <li class="element"><a class="pl-4" href="#">Candidatos Pendentes</a></li>
         </ul>
 
-        <a id="logoff" class="pl-4 sticky-bottom" href="#">Sair</a>
-        <footer>
-            <h1 id="creator" class="text-center px-3">Made with <i class="fa fa-coffee"></i> and <i class="fas fa-heart"></i> by Gustavo de Paula, Matheus Coelho and Rita Rezende</h1>
-        </footer>
+        <a id="logoff" class="pl-4 text-center sticky-bottom" href="#">Sair</a>
+
     </div>
 </div>

@@ -37,32 +37,23 @@
                     <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                         <?php include "../components/card2.inc" ?>
                     </div>
-                    <div class="mt-4  col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <?php include "../components/card3.inc" ?>
+                    </div>
+                    <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                         <?php include "../components/card1.inc" ?>
                     </div>
-                    <div class="mt-4  col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "../components/card2.inc" ?>
+                    <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <?php include "../components/card1.inc" ?>
+                    </div>
+                    <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <?php include "../components/card3.inc" ?>
                     </div>
                     <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                         <?php include "../components/card1.inc" ?>
                     </div>
                     <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                         <?php include "../components/card2.inc" ?>
-                    </div>
-                    <div class="mt-4  col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "../components/card1.inc" ?>
-                    </div>
-                    <div class="mt-4  col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "../components/card2.inc" ?>
-                    </div>
-                    <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "../components/card1.inc" ?>
-                    </div>
-                    <div class="mt-4 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "../components/card2.inc" ?>
-                    </div>
-                    <div class="mt-4  col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <?php include "../components/card1.inc" ?>
                     </div>
                 </div>
             </div>

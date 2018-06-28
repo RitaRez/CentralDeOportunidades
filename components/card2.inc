@@ -4,7 +4,7 @@
 <div class="card" style="width: 18rem;">
     <div class="container" width="100%">
         <div class="image2 module"></div>
-        <h5 class="card-title centered">Técnico em química</h5>
+        <h5 class="card-title centered">Técnico em Química</h5>
     </div>
 
   <div class="card-body">

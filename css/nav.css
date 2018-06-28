@@ -3,7 +3,7 @@ a{
     color: inherit;
 }
 #navBar{
-    background-color: #29FF9C;
+    background-color: #06CC7E;
     height: 100%;
 }
 #navOpener{
@@ -18,6 +18,7 @@ a{
     height: 10%:
 }
 #userImg{
+    margin-bottom: 2% !important;
 }
 #userName{
     font-size: 1.6em;
@@ -26,17 +27,17 @@ a{
 }
 #userCourse{
     font-size: 1.1em;
-    color: rgb(142, 149, 153);
+    color: rgb(124, 126, 128);
     font-family: 'Lato', sans-serif;
 
 }
 #logoff{
-    font-size: 1.7em;
+    font-size: 1.6em;
     bottom 0;
+    text-align: center !important;
     position: absolute;
     margin-top: 10vh !important;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 #creator{
@@ -66,14 +67,15 @@ a{
     align-items: center;
 }
 .element{
-    padding-top: 12%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-color: inherit;
     color: black;
     font-family: 'Montserrat', sans-serif;
 
 }
 .element:hover{
-    background-color: #50f1a6 !important;
+    background-color: #047F4F !important;
     color: white;
 }
 .sidenav {
@@ -96,14 +98,14 @@ a{
     margin-left: 50px;
     color:white;
 }
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 600px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
     .element{
         padding-top: 4%;
     }
     #logoff{
-        margin-top: 2%; !important;
+        margin-top: 2% !important;
     }
     #userName{
         display: none;
@@ -112,10 +114,4 @@ a{
         display: none;
 
     }
-
-
-}
-
-@media screen and (max-width: 800px) {
-
 }

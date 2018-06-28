@@ -1,13 +1,12 @@
 html,body{
-  margin:0;
-  padding:0;
-  background-color: rgb(237, 240, 233);
+    margin:0;
+    padding:0;
 }
 #searchBar{
-    background: linear-gradient(to bottom right, #29FF9C 0%, #3ad260 100%);
+    background-color: #06CC7E;
 }
 #search{
-    background-color: rgb(65, 66, 64);
+    background-color: rgb(52,53, 55);
     color: white;
 }
 .input-group{
@@ -28,7 +27,7 @@ html,body{
     z-index: 0;
     border: none;
     background-color: inherit;
-    color: rgb(65, 66, 64);
+    color: rgb(52, 53, 55);
 }
 #navOpener:hover{
     color: white;
