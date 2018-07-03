@@ -4,11 +4,11 @@ html,body{
   background-color: rgb(237, 240, 233);
 }
 #searchBar{
-    background: linear-gradient(to bottom right, #29FF9C 0%, #3ad260 100%);
+    background: linear-gradient(to right, #579c87 0%, #58bd8f 100%);
 }
 #search{
-    background-color: rgb(65, 66, 64);
-    color: white;
+    background-color: white;
+    color: rgb(65, 66, 64);
 }
 .input-group{
     max-height: 60px !important;
@@ -28,10 +28,10 @@ html,body{
     z-index: 0;
     border: none;
     background-color: inherit;
-    color: rgb(65, 66, 64);
+    color: white;
 }
 #navOpener:hover{
-    color: white;
-    z-index: 0;
+    color: rgb(65, 66, 64);
+    z-index: 1;
 
 }
