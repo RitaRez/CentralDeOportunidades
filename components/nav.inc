@@ -25,13 +25,8 @@
             <li id="logoff"  class="element"><a class="text pl-4 sticky-bottom" href="#">Sair</a></li>
         </ul>
 
-<<<<<<< HEAD
-        <a id="logoff" class="pl-4 text-center sticky-bottom" href="#">Sair</a>
-
-=======
         <footer>
             <h1 id="creator" class="text-center px-3">Made with <i class="fa fa-coffee"></i> and <i class="fas fa-heart"></i> by Gustavo de Paula, Matheus Coelho and Rita Rezende</h1>
         </footer>
->>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
     </div>
 </div>
