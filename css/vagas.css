@@ -3,11 +3,19 @@ html,body{
     padding:0;
 }
 #searchBar{
+<<<<<<< HEAD
     background-color: #06CC7E;
 }
 #search{
     background-color: rgb(52,53, 55);
     color: white;
+=======
+    background: linear-gradient(to right, #579c87 0%, #58bd8f 100%);
+}
+#search{
+    background-color: white;
+    color: rgb(65, 66, 64);
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
 }
 .input-group{
     max-height: 60px !important;
@@ -27,10 +35,14 @@ html,body{
     z-index: 0;
     border: none;
     background-color: inherit;
+<<<<<<< HEAD
     color: rgb(52, 53, 55);
+=======
+    color: white;
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
 }
 #navOpener:hover{
-    color: white;
-    z-index: 0;
+    color: rgb(65, 66, 64);
+    z-index: 1;
 
 }

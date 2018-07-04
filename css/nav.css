@@ -3,7 +3,11 @@ a{
     color: inherit;
 }
 #navBar{
+<<<<<<< HEAD
     background-color: #06CC7E;
+=======
+    background-color: #579C87;
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
     height: 100%;
 }
 #navOpener{
@@ -17,9 +21,12 @@ a{
     padding: 2%;
     height: 10%:
 }
+<<<<<<< HEAD
 #userImg{
     margin-bottom: 2% !important;
 }
+=======
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
 #userName{
     font-size: 1.6em;
     color: white;
@@ -27,17 +34,28 @@ a{
 }
 #userCourse{
     font-size: 1.1em;
+<<<<<<< HEAD
     color: rgb(124, 126, 128);
+=======
+    color: rgb(81, 83, 84);
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
     font-family: 'Lato', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 8%;
 
 }
 #logoff{
+<<<<<<< HEAD
     font-size: 1.6em;
     bottom 0;
     text-align: center !important;
     position: absolute;
     margin-top: 10vh !important;
     font-family: 'Montserrat', sans-serif;
+=======
+    font-size: 20px !important;
+    margin-top: 30% !important;
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
 }
 
 #creator{
@@ -46,17 +64,17 @@ a{
     right: 0;
     left: 0;
     width:100%;
-    text-align: center;
+    text-align: left;
     font-size: 1em;
     color: black;
     text-decoration-style: wavy;
-    font-family: 'Pacifico', cursive;
-
+    font-family: 'Lato', sans-serif;
 }
 .borda{
     border-width: thick;
     border-color: black;
     border-radius: 50%;
+    margin-top: 4%;
 }
 .circle {
     border-radius: 50%;
@@ -67,15 +85,27 @@ a{
     align-items: center;
 }
 .element{
+<<<<<<< HEAD
     padding-top: 5%;
     padding-bottom: 5%;
+=======
+    padding: 6%;
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
     background-color: inherit;
     color: black;
     font-family: 'Montserrat', sans-serif;
 
 }
+.text{
+    font-size: 16px;
+}
 .element:hover{
+<<<<<<< HEAD
     background-color: #047F4F !important;
+=======
+    transition: 0.4s;
+    background-color: #488571 !important;
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
     color: white;
 }
 .sidenav {
@@ -98,20 +128,78 @@ a{
     margin-left: 50px;
     color:white;
 }
+<<<<<<< HEAD
 @media screen and (max-height: 600px) {
+=======
+
+
+@media screen and (max-height: 650px)  {
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
     .element{
         padding-top: 4%;
     }
+<<<<<<< HEAD
     #logoff{
         margin-top: 2% !important;
+=======
+    .text{
+        font-size: 15px !important;
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
     }
-    #userName{
-        display: none;
+    .borda{
+        margin-top: 0%;
     }
+    #logoff{
+        margin-top: 10% !important;
+    }
+
     #userCourse{
         display: none;
 
     }
+<<<<<<< HEAD
+=======
+    #userName{
+        padding-bottom: 4%;
+
+    }
+
+}
+@media screen and (max-height: 800px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .element{
+        padding-top: 4%;
+    }
+    .text{
+        font-size: 15px !important;
+    }
+    .borda{
+        margin-top: 0%;
+    }
+    #logoff{
+        margin-top: 10% !important;
+    }
+
+}
+@media screen and (max-height: 600px) {
+    #userName{
+        display: none;
+    }
+    #logoff{
+        margin-top: 4%;
+    }
+    .borda{
+        margin-bottom: 2%;
+    }
+    .text{
+        font-size: 16px !important;
+    }
+    .element{
+        padding-top: 1%;
+    }
+
+>>>>>>> c2abf18562f6d77043bb2947b5498eef9a682f42
 }
