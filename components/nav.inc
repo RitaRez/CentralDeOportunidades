@@ -10,7 +10,7 @@
     <div class="">
         <div class="borda offset-1 col-10">
             <div class="circle ">
-                <img id="userImg" class="" width="200%" src="../assets/profile.jpg" alt="">
+                <img id="userImg" class="" src="../assets/profile.jpg" alt="">
             </div>
         </div>
 

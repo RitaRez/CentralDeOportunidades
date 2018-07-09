@@ -24,53 +24,116 @@
             <!-- Candidatos Pendentes -->
 
             <ul id="candidatos" class="offset-1 col-10 ">
+
                 <hr>
                 <div class="candidato container">
-                    <h1 class="nome" href="#">Lou Reed</h1>
+                    <div class="row col-12">
+                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Lou Reed</h1>
+                        <div id="buttons" class="offset-1 offset-sm-5 offset-md-7 offset-lg-8 offset-xl-9" >
+                            <button  id="confirmar" class="btn" type="" name="button"><i class="fas fa-check"></i></button>
+                            <button id="recusar" class="btn" type="" name="button"><i class="fas fa-times"></i></button>
+                        </div>
+
+                    </div>
                     <div class="info row col-12">
-                        <p class="matricula">2016951715</p>
-                        <p class="email">loureed@gmail.com</p>
+                        <p  id="matricula">2016951715</p>
+                        <p  id="email">loureed@gmail.com</p>
+                        <p  id="telefone">31-984804838</p>
+                        <p  id="data">02/10/12</p>
                     </div>
                 </div>
 
                 <hr>
                 <div class="candidato container">
-                    <h1 class="nome" href="#">Lou Reed</h1>
+                    <div class="row col-12">
+                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Lou Reed</h1>
+                        <div id="buttons" class="offset-1 offset-sm-5 offset-md-7 offset-lg-8 offset-xl-9" >
+                            <button  id="confirmar" class="btn" type="" name="button"><i class="fas fa-check"></i></button>
+                            <button id="recusar" class="btn" type="" name="button"><i class="fas fa-times"></i></button>
+                        </div>
+
+                    </div>
                     <div class="info row col-12">
-                        <p class="matricula">2016951715</p>
-                        <p class="email">loureed@gmail.com</p>
+                        <p  id="matricula">2016951715</p>
+                        <p  id="email">loureed@gmail.com</p>
+                        <p  id="telefone">31-984804838</p>
+                        <p  id="data">02/10/12</p>
                     </div>
                 </div>
 
                 <hr>
                 <div class="candidato container">
-                    <h1 class="nome" href="#">Lou Reed</h1>
+                    <div class="row col-12">
+                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Lou Reed</h1>
+                        <div id="buttons" class="offset-1 offset-sm-5 offset-md-7 offset-lg-8 offset-xl-9" >
+                            <button  id="confirmar" class="btn" type="" name="button"><i class="fas fa-check"></i></button>
+                            <button id="recusar" class="btn" type="" name="button"><i class="fas fa-times"></i></button>
+                        </div>
+
+                    </div>
                     <div class="info row col-12">
-                        <p class="matricula">2016951715</p>
-                        <p class="email">loureed@gmail.com</p>
+                        <p  id="matricula">2016951715</p>
+                        <p  id="email">loureed@gmail.com</p>
+                        <p  id="telefone">31-984804838</p>
+                        <p  id="data">02/10/12</p>
                     </div>
                 </div>
 
                 <hr>
                 <div class="candidato container">
-                    <h1 class="nome" href="#">Lou Reed</h1>
+                    <div class="row col-12">
+                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Lou Reed</h1>
+                        <div id="buttons" class="offset-1 offset-sm-5 offset-md-7 offset-lg-8 offset-xl-9" >
+                            <button  id="confirmar" class="btn" type="" name="button"><i class="fas fa-check"></i></button>
+                            <button id="recusar" class="btn" type="" name="button"><i class="fas fa-times"></i></button>
+                        </div>
+
+                    </div>
                     <div class="info row col-12">
-                        <p class="matricula">2016951715</p>
-                        <p class="email">loureed@gmail.com</p>
+                        <p  id="matricula">2016951715</p>
+                        <p  id="email">loureed@gmail.com</p>
+                        <p  id="telefone">31-984804838</p>
+                        <p  id="data">02/10/12</p>
                     </div>
                 </div>
 
                 <hr>
                 <div class="candidato container">
-                    <h1 class="nome" href="#">Lou Reed</h1>
+                    <div class="row col-12">
+                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Lou Reed</h1>
+                        <div id="buttons" class="offset-1 offset-sm-5 offset-md-7 offset-lg-8 offset-xl-9" >
+                            <button  id="confirmar" class="btn" type="" name="button"><i class="fas fa-check"></i></button>
+                            <button id="recusar" class="btn" type="" name="button"><i class="fas fa-times"></i></button>
+                        </div>
+
+                    </div>
                     <div class="info row col-12">
-                        <p class="matricula">2016951715</p>
-                        <p class="email">loureed@gmail.com</p>
+                        <p  id="matricula">2016951715</p>
+                        <p  id="email">loureed@gmail.com</p>
+                        <p  id="telefone">31-984804838</p>
+                        <p  id="data">02/10/12</p>
                     </div>
                 </div>
-                <hr>
 
+                <hr>
+                <div class="candidato container">
+                    <div class="row col-12">
+                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Bryan Santos</h1>
+                        <div id="buttons" class="offset-1 offset-sm-5 offset-md-7 offset-lg-8 offset-xl-9" >
+                            <button  id="confirmar" class="btn" type="" name="button"><i class="fas fa-check"></i></button>
+                            <button id="recusar" class="btn" type="" name="button"><i class="fas fa-times"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="info row col-12">
+                        <p  id="matricula">2016951715</p>
+                        <p  id="email">loureed@gmail.com</p>
+                        <p  id="telefone">31-984804838</p>
+                        <p  id="data">02/10/12</p>
+                    </div>
+                </div>
             </ul>
+            </div>
         </div>
 
 

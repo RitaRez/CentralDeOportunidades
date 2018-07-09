@@ -4,6 +4,7 @@ function openNav() {
     if (document.documentElement.clientWidth > 650) {
         document.getElementById("main").classList.remove('animationClose');
         document.getElementById("main").classList.add('animationOpen')
+        document.getElementById('navOpener').style.display = 'none';
 
     }
 }
@@ -13,4 +14,6 @@ function closeNav() {
     document.getElementById("navBar").style.width = "0";
     document.getElementById("main").classList.remove('animationOpen');
     document.getElementById("main").classList.add('animationClose');
+    document.getElementById('navOpener').style.display = 'inline';
+
 }

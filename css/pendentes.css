@@ -25,7 +25,9 @@ ul{
 hr{
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-
+}
+i{
+    color: inherit;
 }
 #title{
     color: white;
@@ -33,7 +35,6 @@ hr{
     font-family: 'Oswald', sans-serif;
 }
 #searchBar{
-
     background: linear-gradient(to right, #579c87 0%, #58bd8f 100%);
 }
 #search{
@@ -44,22 +45,7 @@ hr{
     margin-top: 4%;
     margin-bottom: 4%;
 }
-.input-group{
-    max-height: 60px !important;
-}
-.search{
-    max-height: 60px !important;
-}
-.container{
-    height: 100% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-.container:hover{
-    background-color: #579c87;
-    color: white;
-    transition: 0.3s;
-}
+
 #navOpener{
     margin-top: 0 !important;
     z-index: 0;
@@ -72,22 +58,86 @@ hr{
     color: rgb(65, 66, 64);
     z-index: 1;
 }
+#nome{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    padding: 0 !important;
+}
+#matricula{
+    padding-left: 0px;
+}
+#email{
+    padding-left: 20px;
+}
+#telefone{
+    padding-left: 20px;
+}
+#data{
+    padding-left: 20px;
+}
 
+#confirmar{
+    width: 40px;
+    border-radius: 15px;
+    border-color: #58bd8f ;
+    background-color: white;
+    color: #58bd8f;
+}
+#confirmar:hover{
+    transition: 0.3;
+    background: linear-gradient(to right, #579c87 0%, #58bd8f 100%);
+    color: white;
+}
+#recusar{
+    width: 39px;
+    border-radius: 15px;
+    border-color: rgb(218, 15, 15);
+    background-color: white;
+    color: rgb(218, 15, 15)
+}
+#recusar:hover{
+    transition: 0.3;
+    background-color: rgb(218, 15, 15);
+    color: white;
+    }
+.input-group{
+    max-height: 60px !important;
+}
+.search{
+    max-height: 60px !important;
+}
+.container{
+    height: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 .candidato{
         padding-top: 3%;
         padding-bottom: 3%;
 }
-.nome{
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.5em;
-    margin-left: 4%;
-}
-.email{
-    margin-left: 4%;
-}
 .info{
     margin-top: 2%;
     font-style: italic;
-    padding-left: 4%;
     font-family: 'Lato', sans-serif;
+}
+@media screen and (max-width: 587px)  {
+    #matricula{
+        width: 100%;
+    }
+    #email{
+        width: 100%;
+        padding-left: 0px;
+
+    }
+    #telefone{
+        width: 100%;
+        padding-left: 0px;
+
+    }
+    #data{
+        width: 100%;
+        padding-left: 0px;
+
+    }
+
 }
