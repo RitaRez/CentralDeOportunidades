@@ -13,11 +13,11 @@
         <?php include "../components/nav.inc" ?>
         <div id="main">
             <!-- Search bar -->
+            <!-- Search bar -->
             <nav id="searchBar" class="py-3 container-fluid">
                 <div class="row search">
-                    <button class="ml-4" id="navOpener" onclick="openNav()"><i class="fas fa-2x fa-bars"></i></button>
-                    <div class="offset-0 col-8 offset-xs-1 offset-sm-1 offset-md-2 offset-lg-2 col-xs-6 col-sm-7 col-md-8 col-lg-8 input-group">
-                    <h1 id="title" class="offset-1" >Candidatos Pendentes:</h1>
+                    <button class="ml-4" id="navOpener" onclick="openNav()"><i class="col-1 fas fa-2x fa-bars"></i></button>
+                    <h1 id="title" class="col-11 text-center" >Candidatos Pendentes:</h1>
                 </div>
             </nav>
 
@@ -46,7 +46,7 @@
                 <hr>
                 <div class="candidato container">
                     <div class="row col-12">
-                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Lou Reed</h1>
+                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Rita Rezende</h1>
                         <div id="buttons" class="offset-1 offset-sm-5 offset-md-7 offset-lg-8 offset-xl-9" >
                             <button  id="confirmar" class="btn" type="" name="button"><i class="fas fa-check"></i></button>
                             <button id="recusar" class="btn" type="" name="button"><i class="fas fa-times"></i></button>
@@ -64,7 +64,7 @@
                 <hr>
                 <div class="candidato container">
                     <div class="row col-12">
-                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Lou Reed</h1>
+                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Mathias Gonçalves</h1>
                         <div id="buttons" class="offset-1 offset-sm-5 offset-md-7 offset-lg-8 offset-xl-9" >
                             <button  id="confirmar" class="btn" type="" name="button"><i class="fas fa-check"></i></button>
                             <button id="recusar" class="btn" type="" name="button"><i class="fas fa-times"></i></button>
@@ -82,7 +82,7 @@
                 <hr>
                 <div class="candidato container">
                     <div class="row col-12">
-                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Lou Reed</h1>
+                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Felipe Ferraz</h1>
                         <div id="buttons" class="offset-1 offset-sm-5 offset-md-7 offset-lg-8 offset-xl-9" >
                             <button  id="confirmar" class="btn" type="" name="button"><i class="fas fa-check"></i></button>
                             <button id="recusar" class="btn" type="" name="button"><i class="fas fa-times"></i></button>

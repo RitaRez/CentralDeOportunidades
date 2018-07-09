@@ -1,0 +1,81 @@
+.animationOpen{
+    animation: open 0.5s forwards;
+}
+@keyframes open {
+    from {margin-left: 0px;}
+    to {margin-left: 250px;}
+}
+
+.animationClose{
+    animation: close 0.5s forwards;
+}
+@keyframes close {
+    from {margin-left: 250px;}
+    to {margin-left: 0px;}
+}
+html,body{
+    margin:0;
+    padding:0;
+}
+#search{
+    background-color: rgb(213, 206, 215);
+}
+#navOpener{
+    margin-top: 0 !important;
+    z-index: 0;
+    background-color: inherit;
+    border: none;
+    color: #579c87;
+
+}
+#navOpener:hover{
+    color: #58bd8f;
+    z-index: 1;
+}
+#mainCard{
+    padding: 0;
+    border-radius: 30px;
+    margin-top: 8%;
+    margin-bottom: 160px;
+}
+
+.button{
+    border: none !important;
+    z-index: auto;
+    width: 100%;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 30px;
+    text-align: left;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    color:#579c87;
+
+}
+.button:hover{
+    background-color: #579c87;
+    color: white;
+    box-shadow: 1px 1px 10px 1px rgb(222, 219, 222);
+}
+.card-body{
+    background: linear-gradient(to right, #579c87 0%, #58bd8f 100%);
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.lForm{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 2%;
+}
+.option{
+    padding: 0;
+    margin: 2%;
+    border: none;
+}
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    font-size: 2em;
+}

@@ -18,9 +18,9 @@
         <h3 id="userCourse" class="pt-1 text-center">Análises Clínicas</h3>
 
         <ul class="list-group" >
-            <li class="element"><a class="text pl-4" href="#">Editar Perfil</a></li>
+            <li class="element"><a class="text pl-4" href="../php/editar.php">Editar Perfil</a></li>
             <li class="element"><a class="text pl-4" href="../php/vagas.php">Vagas</a></li>
-            <li class="element"><a class="text pl-4" href="#">Convidar Coordenador</a></li>
+            <li class="element"><a class="text pl-4" href="../php/convidar.php">Convidar Coordenador</a></li>
             <li class="element"><a class="text pl-4" href="../php/pendentes.php">Candidatos Pendentes</a></li>
             <li id="logoff"  class="element"><a class="text pl-4 sticky-bottom" href="#">Sair</a></li>
         </ul>
