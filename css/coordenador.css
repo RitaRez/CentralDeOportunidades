@@ -17,20 +17,29 @@ html,body{
     margin:0;
     padding:0;
 }
+#searchBar{
+    background: linear-gradient(to right, #579c87 0%, #58bd8f 100%);
+}
 #search{
-    background-color: rgb(213, 206, 215);
+    background-color: white;
+    color: rgb(65, 66, 64);
 }
 #navOpener{
     margin-top: 0 !important;
     z-index: 0;
-    background-color: inherit;
     border: none;
-    color: #579c87;
+    background-color: inherit;
 
+    color: white;
 }
 #navOpener:hover{
-    color: #58bd8f;
+    color: rgb(65, 66, 64);
     z-index: 1;
+}
+#subtitle{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.1em;
+    color: rgb(213, 222, 217);
 }
 #mainCard{
     padding: 0;

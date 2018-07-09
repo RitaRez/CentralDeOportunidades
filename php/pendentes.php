@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/pendentes.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Open+Sans+Condensed:300" rel="stylesheet">
         <script src="../script/nav.js" type="text/javascript"></script>
         <title></title>
     </head>
@@ -100,7 +101,7 @@
                 <hr>
                 <div class="candidato container">
                     <div class="row col-12">
-                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Lou Reed</h1>
+                        <h1 id="nome" class="col-6 col-sm-4 col-md-3 col-lg-2" href="#">Iggy Pop</h1>
                         <div id="buttons" class="offset-1 offset-sm-5 offset-md-7 offset-lg-8 offset-xl-9" >
                             <button  id="confirmar" class="btn" type="" name="button"><i class="fas fa-check"></i></button>
                             <button id="recusar" class="btn" type="" name="button"><i class="fas fa-times"></i></button>
