@@ -52,3 +52,19 @@ html,body{
     z-index: 1;
 
 }
+#criaVaga{
+    margin-top: 0 !important;
+    border-width: thin;
+    margin-left: 4%;
+    border-radius: 10px;
+    border-color: white;
+    background-color: inherit;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+#criaVaga:hover{
+    background-color: white;
+    color:#58bd8f;
+    z-index: 1;
+
+}
